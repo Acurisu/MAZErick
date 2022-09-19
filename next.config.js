@@ -2,6 +2,8 @@
 const nextConfig = {
   reactStrictMode: false,
   swcMinify: true,
-}
+  assetPrefix: "/MAZErick",
+  basePath: "/MAZErick",
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
