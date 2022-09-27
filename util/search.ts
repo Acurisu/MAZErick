@@ -22,7 +22,7 @@ export function bfs(
   data: Uint8ClampedArray
 ) {
   var queue = [start];
-  const parents: any = {};
+  const parents: { [Key: string]: Coord } = {};
 
   let node;
   while ((node = queue.shift())) {
